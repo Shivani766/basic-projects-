@@ -1,0 +1,123 @@
+#navlist{
+list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+
+}
+.navcontainer{
+    width: 100vw;
+    background-color:rgb(46, 150, 202);;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+nav{
+    width: 100%;
+    overflow-x: none;
+    padding: 2rem;
+}
+#navlist{
+    padding: 15px;
+    width: 100vw;
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+#brand{
+    font-size: 2.8rem;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+#navItems{
+display: flex;
+gap: 40px;
+
+}
+.footerBox{
+    background-color:rgb(46, 150, 202);
+    text-align: center;
+    min-height: 40px;
+
+}
+.footerBox p{
+    color: azure;
+    font-size: 2rem;
+
+}
+.contentBox{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: white ;
+    gap: 70%;
+    padding: 3rem;
+    box-shadow: 3px 3px 30px black;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.rightBox{
+    position: relative;
+    overflow: hidden;
+}
+.rightBox img:hover{
+    transform: scale(1.1);
+
+}
+.rightBox img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+
+}
+
+.leftBox{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+.leftBox h2{
+    font-size: 2rem;
+}
+.ingBox{
+    font-size: 1.3rem;
+}
+/* .rightBox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+} */
+.rightBox .overlay span{
+    color: wheat;
+    font-size: 1.2rem;
+}
